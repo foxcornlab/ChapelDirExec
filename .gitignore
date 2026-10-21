@@ -1,0 +1,4 @@
+cde
+*.o
+build/
+external/
