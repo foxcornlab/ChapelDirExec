@@ -1,0 +1,16 @@
+Source: cde
+Priority: optional
+Section: net
+Maintainer: Jorge Matricali <jorgematricali@gmail.com>
+Build-Depends: debhelper (>= 9), libssh-dev
+Standards-Version: 4.2.0
+Homepage: https://github.com/foxcornlab/ChapelDirExec
+Vcs-Git: https://github.com/foxcornlab/ChapelDirExec.git
+Vcs-Browser: https://github.com/foxcornlab/ChapelDirExec
+
+Package: cde
+Architecture: i386 amd64
+Depends: libssh-4 (>= 0.5.0), ${shlibs:Depends}, ${misc:Depends}
+Pre-Depends: ${misc:Pre-Depends}
+Description: SSH bruteforce tool
+ Penetration tests on SSH servers using brute force or dictionary attacks.
